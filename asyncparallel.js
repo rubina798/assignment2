@@ -10,7 +10,7 @@ async.parallel(
         },
         function(callback)
         {
-            sertimeout(function()
+            setTimeout(function()
             {
                 console.log("hey girl");
                 callback(null,2);
